@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Transform Tutorial</title>
+    <script src="Imports/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="showHide.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Hello Gacrux!</h1>
+    <p>Translate moves your div around the page!</p>
+    <p>Example: "transform: translate(500px, -100px);</p>
+    <p>The first value moves left (positive), and right (negative).</p>
+    <p>The second value moves down (positive), and up (negative).</p>
+    <p>The red box's div is directly below this line.</p>
+    <p id="translate">I'm some crafty text! </p>
+    <p>Rotate allows you to ROTATE your div where it is!</p>
+    <p>Example: "transform: rotate(20deg);"</p>
+    <p>A positive value rotates clockwise.</p>
+    <p>A negative value rotates counter-clockwise.</p>
+    <br>
+    <p id="rotate">omg, I'm sliding off my div!</p>
+    <br>
+    <p>Scale grows and shrinks your div!</p>
+    <p>Example: "transform: scale(3, 3);"</p>
+    <p>The first value grows your width.</p>
+    <p>The second value grows your height.</p>
+    <br><br><br><br>
+    <p id="scale">This div is HUGE!!</p>
+    <br><br><br><br>
+    <p>SkewX and SkewY tilt your div along the X and Y axis!</p>
+    <p>Example: 'transform: skewX(30deg);'</p>
+    <p id="skewX">Gettin schwifty with an X skew!</p>
+    <p>Example: 'transform: skewY(20deg);'</p>
+    <br><br>
+    <p id="skewY">A new axis of schwifty has arrived!</p>
+    <br><br>
+    <p>These two can be combined by just using skew without a letter.</p>
+    <p>Example: 'transform: skew(30deg, 20deg);'</p>
+    <p id="skew">This doesn't work for some reason!</p>
+    <p>Finally, we have matrix! This is a combination of everything.</p>
+    <p>matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</p>
+    <p id="matrix">Example: 'transform: matrix(1.5, -0.3, .2, .5, 500px, -100px);'</p>
+    <br><br>
+  </body>
+</html>

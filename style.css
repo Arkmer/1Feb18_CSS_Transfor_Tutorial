@@ -1,0 +1,62 @@
+#translate{
+  transform: translate(500px, -100px);
+  border: solid;
+  border-color: red;
+  width: 150px;
+  text-align: center;
+}
+
+#rotate{
+  transform: rotate(20deg);
+  /* transform: translate(500px, -100px); Can't get two transforms to work at once. */
+  border: solid;
+  border-color: blue;
+  width: 200px;
+  text-align: center;
+}
+
+#scale{
+  transform: scale(-3, 5);
+  height: 40px;
+  width: 150px;
+  margin-left: 200px;
+  border: solid;
+  border-color: green;
+  width: 200px;
+  text-align: center;
+}
+
+#skewX{
+  transform: skewX(30deg);
+  width: 300px;
+  border: solid;
+  border-color: orange;
+  width: 250px;
+  text-align: center;
+}
+
+#skewY{
+  transform: skewY(20deg);
+  width: 300px;
+  border: solid;
+  border-color: yellow;
+  width: 250px;
+  text-align: center;
+}
+
+#skew{
+  'transform: skew(30, 20);
+  width: 300px;
+  border: solid;
+  border-color: purple;
+  width: 250px;
+  text-align: center;
+}
+
+#matrix{
+  transform: matrix(1.5, -0.3, .8, 2, 550, -100);
+  border: solid;
+  border-color: pink;
+  width: 250px;
+  text-align: center;
+}
